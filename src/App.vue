@@ -81,12 +81,7 @@ export default {
     }
   },
   mounted(){
-    // setTimeout(()=>{
-    //   this.showDiscount = false;
-    // }, 2000)
-    // setInterval(()=>{
-    //   this.showDiscount = false;
-    // }, 1000)
+    
   },
 
   components: {
@@ -110,6 +105,12 @@ export default {
 
 body{
   margin: 0;
+  padding: 0;
+  background-color: #fff1ff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
 }
 div{
   box-sizing: border-box;
